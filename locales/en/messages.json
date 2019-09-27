@@ -1,0 +1,185 @@
+{
+   "autoConnect": {
+      "message": "Auto-Connect"
+   },
+   "autoConnectDisabled": {
+      "message": "Auto-Connect: Disabled - User needs to select the correct serial port and click \"Connect\" button on its own"
+   },
+   "autoConnectEnabled": {
+      "message": "Auto-Connect: Enabled - Configurator automatically tries to connect when new port is detected"
+   },
+   "connect": {
+      "message": "Connect"
+   },
+   "connecting": {
+      "message": "Connecting"
+   },
+   "disconnect": {
+      "message": "Disconnect"
+   },
+   "noDataReceived": {
+      "message": "No data received within \u003Cspan style=\"color: red\">10 seconds\u003C/span>, communication \u003Cspan style=\"color: red\">failed\u003C/span>"
+   },
+   "notifications_app_just_updated_to_version": {
+      "message": "Application just updated to version: $1"
+   },
+   "notifications_click_here_to_start_app": {
+      "message": "Click here to start the application"
+   },
+   "serialPortClosedFail": {
+      "message": "\u003Cspan style=\"color: red\">Failed\u003C/span> to close serial port"
+   },
+   "serialPortClosedOk": {
+      "message": "Serial port \u003Cspan style=\"color: #57a929\">successfully\u003C/span> closed"
+   },
+   "serialPortOpenFail": {
+      "message": "\u003Cspan style=\"color: red\">Failed\u003C/span> to open serial port"
+   },
+   "serialPortOpened": {
+      "message": "Serial port \u003Cspan style=\"color: #57a929\">successfully\u003C/span> opened"
+   },
+   "serialPortOpenedWithID": {
+      "message": "Serial port \u003Cspan style=\"color: #57a929\">successfully\u003C/span> opened with ID: $1"
+   },
+   "statusbar_packet_error": {
+      "message": "Packet error:"
+   },
+   "statusbar_port_utilization": {
+      "message": "Port utilization:"
+   },
+   "statusbar_usage_download": {
+      "message": "D: $1%"
+   },
+   "statusbar_usage_upload": {
+      "message": "U: $1%"
+   },
+   "statusbar_msp_timeout": {
+      "message": "MSP timeout:"
+   },
+   "statusbar_device_state": {
+      "message": "Device Status:"
+   },
+   "statusbar_timer_state": {
+      "message": "Timer Status:"
+   },
+   "tabLanding": {
+      "message": "Welcome"
+   },
+   "tabLap": {
+      "message": "Lap"
+   },
+   "tabMultipilot": {
+      "message": "Race"
+   },
+   "tabSwitchConnectionRequired": {
+      "message": "You need to \u003Cstrong>connect\u003C/strong> before you can view any of the tabs."
+   },
+   "tabSwitchUpgradeRequired": {
+      "message": "You need to \u003Cstrong>upgrade\u003C/strong> your firmware before you can use the $1 tab."
+   },
+   "tabSwitchWaitForOperation": {
+      "message": "You \u003Cspan style=\"color: red\">can't\u003C/span> do this right now, please wait for current operation to finish ..."
+   },
+   "lapRSSI": {
+      "message": "RSSI"
+   },
+   "lapSettingChannel": {
+      "message": "Channel frequency"
+   },
+   "lapSettingRssiThreshold": {
+      "message": "RSSI threshold"
+   },
+   "lapSettingMinimumLapTime": {
+      "message": "Minimum lap time (seconds)"
+   },
+   "lapSettingMaximum": {
+      "message": "Maximum laps"
+   },
+   "lapLaps": {
+      "message": "Laps"
+   },
+   "lapNumber": {
+      "message": "Lap"
+   },
+   "lapTime": {
+      "message": "Time"
+   },
+   "lapButtonCalibrateRSSI": {
+      "message": "Calibrate"
+   },
+   "lapRssiCalibrationStarted": {
+      "message": "RSSI calibration started for device $1"
+   },
+   "lapRssiCalibrationEnded": {
+      "message": "RSSI calibration \u003Cspan style=\"color: #57a929\">finished\u003C/span> for device $1"
+   },
+   "lapRssiMinimumLapTimeSaved": {
+      "message": "Minimum lap time \u003Cspan style=\"color: #57a929\">saved\u003C/span> for device $1"
+   },
+   "lapRssiMaximumLapSaved": {
+      "message": "Maximum lap \u003Cspan style=\"color: #57a929\">saved\u003C/span> for device $1"
+   },
+   "lapRssiFoundDevice": {
+      "message": "Device $1 \u003Cspan style=\"color: #57a929\">found\u003C/span> and initialised"
+   },
+   "lapRssiChannelFrequencySaved": {
+      "message": "Channel frequency \u003Cspan style=\"color: #57a929\">saved\u003C/span> for device $1"
+   },
+   "lapRssiThresholdSaved": {
+      "message": "RSSI threshold \u003Cspan style=\"color: #57a929\">saved\u003C/span> for device $1"
+   },
+   "lapRssiEepromSaved": {
+      "message": "EEPROM \u003Cspan style=\"color: #57a929\">saved\u003C/span> for device $1"
+   },
+   "lapRssiDeviceActivated": {
+      "message": "Device $1 \u003Cspan style=\"color: #57a929\">activated\u003C/span>"
+   },
+   "lapRssiDeviceDeactivated": {
+      "message": "Device $1 \u003Cspan style=\"color: #57a929\">deactivated\u003C/span>"
+   },
+   "lapSave": {
+      "message": "Save"
+   },
+   "lapReset": {
+      "message": "Reset"
+   },
+   "lapStart": {
+      "message": "Start"
+   },
+   "lapExportCSV": {
+      "message": "Export CSV"
+   },
+   "lapExportJSON": {
+      "message": "Export JSON"
+   },
+   "lapExportFileSuccess": {
+      "message": "Lap results exported as \u003Cspan style=\"color: #57a929\">$1\u003C/span> to $2"
+   },
+   "lapExportFileReadOnly": {
+      "message": "Lap results export \u003Cspan style=\"color: red\">failed</span>, file $1 is read-only."
+   },
+   "settingTinyViewPlusHost": {
+      "message": "Host / IP address"
+   },
+   "settingTinyViewPlusPort": {
+      "message": "Port"
+   },
+   "settingTinyViewPlusClear": {
+      "message": "Clear"
+   },
+   "tinyViewPlusReady": {
+      "message": "Tiny View Plus connection initialised on \u003Cstrong>$1\u003C/strong>:\u003Cstrong>$2\u003C/strong> and \u003Cspan style=\"color: #57a929\">ready\u003C/span>"
+   },
+   "tinyViewPlusClosed": {
+      "message": "Tiny View Plus connection \u003Cspan style=\"color: #57a929\">closed\u003C/span>"
+   },
+   "settingRaceCountdown": {
+      "message": "Countdown"
+   },
+   "settingRaceCountdownAnnouncement": {
+      "message": "Countdown announcement"
+   },
+   "settingRaceCountdownSound": {
+      "message": "Countdown sound"
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "name": "PIDflight Lap",
+   "short_name": "PIDflight Lap",
+   "description": "Crossplatform tool for PIDflight Lap timing devices",
+   "version": "2.0.6",
+   "version_name": "2.0.6-RC3",
+   "author": "CMengler",
+   "default_locale": "en",
+   "app": {
+      "background": {
+         "persistent": false,
+         "scripts": [ "js/eventPage.js" ]
+      }
+   },
+   "icons": {
+      "128": "images/icon_128.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "offline_enabled": true,
+   "permissions": [ "tts", "webview", "serial", "usb", "hid", "storage", "fileSystem", "fileSystem.write", "fileSystem.retainEntries", "notifications", "alwaysOnTopWindows"],
+   "sockets": {
+      "tcp": {
+         "connect": "*:*"
+      },
+      "udp": {
+         "bind": "*:*",
+         "send": "*:*"
+      }
+   }
+}

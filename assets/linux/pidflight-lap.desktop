@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=PIDflight Lap
+Comment=Crossplatform tool for PIDflight Lap timing devices
+Exec=/opt/pidflight/pidflight-lap/pidflight-lap
+Icon=/opt/pidflight/pidflight-lap/icon/icon_128.png
+Terminal=false
+Type=Application
+Categories=Utility
+Name[en_AU]=pidflight-lap.desktop

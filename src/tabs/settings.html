@@ -1,0 +1,68 @@
+<div class="tab-settings toolbar_fixed_bottom">
+    <div class="content_wrapper">
+      <div class="tab_title">Settings</div>
+
+         <!--left side-->
+        <div class="half" style="width: calc(50% - 5px); padding-right:5px;">
+          <div class="gui_box grey">
+            <div class="gui_box_titlebar">
+              <div class="spacer_box_title name">Tiny View Plus</div>
+            </div>
+            <div class="spacer_box">
+              <div class="text">
+                <label> <input type="text" name="setting_tinyviewplus_host" style="width:200px;"/>
+                  <span i18n="settingTinyViewPlusHost"></span>
+                </label>
+              </div>
+              <div class="text">
+                <label> <input type="text" name="setting_tinyviewplus_port" style="width:100px; margin-right: 111px;"/>
+                  <span i18n="settingTinyViewPlusPort"></span>
+                </label>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!--right side-->
+      <div class="half" style="width: calc(50% - 5px); padding-left:5px;">
+          <div class="gui_box grey">
+            <div class="gui_box_titlebar">
+              <div class="spacer_box_title name">Race</div>
+            </div>
+            <div class="spacer_box">
+              <div class="select">
+                <label> <select name="setting_race_countdown" style="width:140px; margin-right: 77px;">
+                      <option value="0">No countdown</option>
+                      <option value="3">3 seconds</option>
+                      <option value="5">5 seconds</option>
+                      <option value="10">10 seconds</option>
+                      <option value="-1">Random seconds</option>
+                    </select>
+                    <span i18n="settingRaceCountdown"></span>
+                </label>
+              </div>
+              <div class="text">
+                <label> <input type="text" name="setting_race_countdown_announcement" style="width:200px;"/>
+                  <span i18n="settingRaceCountdownAnnouncement"></span>
+                </label>
+              </div>
+              <div class="select">
+                <label> <select name="setting_race_countdown_sound" style="width:140px; margin-right: 77px;">
+                      <option value="silent">Silent</option>
+                      <option value="speech">Speech</option>
+                      <option value="tone">Tones</option>
+                    </select>
+                    <span i18n="settingRaceCountdownSound"></span>
+                </label>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="content_toolbar">
+        <div class="btn save_btn">
+            <a class="save" href="#">Save</a>
+        </div>
+    </div>
+</div>

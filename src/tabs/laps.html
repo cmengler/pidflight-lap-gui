@@ -1,0 +1,43 @@
+<div class="tab-laps toolbar_fixed_bottom">
+    <div class="content_wrapper">
+      <div class="tab_title">Laps</div>
+
+      <!-- laps -->
+      <div class="laps">
+        <div class="gui_box grey">
+          <div class="gui_box_titlebar">
+            <div class="spacer_box_title" i18n="lapLaps">Laps</div>
+          </div>
+          <div class="spacer_box">
+
+            <table id="lap_times" class="lap-times">
+                <thead>
+                    <tr>
+                        <td class="lap" i18n="lapNumber">Lap</td>
+                        <td class="lap-pilot">Pilot</td>
+                        <td class="lap-device">Device</td>
+                        <td i18n="lapTime">Time</td>
+                        <td>RSSI</td>
+                        <td>RSSI filtered</td>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="6">No laps recorded.</td>
+                  </tr>
+                </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content_toolbar">
+        <div class="btn save_btn">
+            <a class="exportCSV" href="#" i18n="lapExportCSV"></a>
+        </div>
+        <div class="btn save_btn">
+            <a class="exportJSON" href="#" i18n="lapExportJSON"></a>
+        </div>
+    </div>
+</div>

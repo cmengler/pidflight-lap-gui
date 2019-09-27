@@ -1,0 +1,54 @@
+.tab-laps .lap-times {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.tab-laps .lap-times thead td {
+    text-align: left;
+    white-space: nowrap;
+    padding: 10px 10px;
+    background-color: #828885;
+    color: white;
+}
+
+.tab-laps .lap-times thead td:first-child {
+    border-top-left-radius: 5px;
+}
+
+.tab-laps .lap-times thead td:last-child {
+    border-top-right-radius: 5px;
+}
+
+.tab-laps .lap-times tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.tab-laps .lap-times tbody tr {
+    background-color: #e4e4e4;
+}
+
+.tab-laps .lap-times tbody td {
+	padding: 10px 10px;
+}
+
+.tab-laps .lap-times tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.tab-laps .lap-times tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.tab-laps .lap-times .lap,
+.tab-laps .lap-times .lap-device {
+    width: 5%;
+}
+
+.tab-laps .lap-times .lap-pilot {
+    width: 10%;
+}
+
+.tab-laps .default_btn {
+    position: relative;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,142 @@
+<div class="tab-devices toolbar_fixed_bottom">
+    <div class="content_wrapper">
+      <div class="tab_title">Devices</div>
+
+      <!-- global settings -->
+      <div class="global">
+        <div class="settings">
+          <div class="gui_box grey">
+            <div class="gui_box_titlebar">
+              <div class="spacer_box_title name">Global</div>
+            </div>
+            <div class="spacer_box">
+              <div class="number">
+                <label> <input type="number" name="lap_minimum_lap_time" step="1" min="1" max="300" />
+                  <span i18n="lapSettingMinimumLapTime"></span>
+                </label>
+              </div>
+              <div class="number">
+                <label> <input type="number" name="lap_maximum_lap" step="1" min="1" max="50" />
+                  <span i18n="lapSettingMaximum"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="devices">
+        <!-- devices -->
+      </div>
+
+    </div>
+
+    <div class="content_toolbar">
+        <div class="btn save_btn">
+            <a class="save" href="#" i18n="lapSave"></a>
+        </div>
+    </div>
+</div>
+
+<!-- device template -->
+<div id="tab-devices-templates">
+  <div class="device">
+    <div class="settings">
+      <div class="gui_box grey">
+        <div class="gui_box_titlebar">
+          <div class="spacer_box_title name">Device #</div>
+          <div class="device_toggle">
+            <input type="checkbox" name="device_enabled" class="toggle" />
+          </div>
+        </div>
+        <div class="spacer_box">
+          <div class="text">
+            <label> <input type="text" name="pilot_name" />
+              <span>Pilot name</span>
+            </label>
+          </div>
+          <div class="select">
+            <label> <select name="lap_channel">
+                  <optgroup label="Band A">
+                    <option value="5865">A1 - 5865 Mhz</option>
+                    <option value="5845">A2 - 5845 Mhz</option>
+                    <option value="5825">A3 - 5825 Mhz</option>
+                    <option value="5805">A4 - 5805 Mhz</option>
+                    <option value="5785">A5 - 5785 Mhz</option>
+                    <option value="5765">A6 - 5765 Mhz</option>
+                    <option value="5745">A7 - 5745 Mhz</option>
+                    <option value="5725">A8 - 5725 Mhz</option>
+                  </optgroup>
+                  <optgroup label="Band B">
+                    <option value="5733">B1 - 5733 Mhz</option>
+                    <option value="5752">B2 - 5752 Mhz</option>
+                    <option value="5771">B3 - 5771 Mhz</option>
+                    <option value="5790">B4 - 5790 Mhz</option>
+                    <option value="5809">B5 - 5809 Mhz</option>
+                    <option value="5828">B6 - 5828 Mhz</option>
+                    <option value="5847">B7 - 5847 Mhz</option>
+                    <option value="5866">B8 - 5866 Mhz</option>
+                  </optgroup>
+                  <optgroup label="Band E">
+                    <option value="5705">E1 - 5705 Mhz</option>
+                    <option value="5685">E2 - 5685 Mhz</option>
+                    <option value="5665">E3 - 5665 Mhz</option>
+                    <option value="5645">E4 - 5645 Mhz</option>
+                    <option value="5885">E5 - 5885 Mhz</option>
+                    <option value="5905">E6 - 5905 Mhz</option>
+                    <option value="5925">E7 - 5925 Mhz</option>
+                    <option value="5945">E8 - 5945 Mhz</option>
+                  </optgroup>
+                  <optgroup label="Band C / Immersion Raceband">
+                    <option value="5658">C1 - 5658 Mhz</option>
+                    <option value="5695">C2 - 5695 Mhz</option>
+                    <option value="5732">C3 - 5732 Mhz</option>
+                    <option value="5769">C4 - 5769 Mhz</option>
+                    <option value="5806">C5 - 5806 Mhz</option>
+                    <option value="5843">C6 - 5843 Mhz</option>
+                    <option value="5880">C7 - 5880 Mhz</option>
+                    <option value="5917">C8 - 5917 Mhz</option>
+                  </optgroup>
+                  <optgroup label="Band F / Airwave">
+                    <option value="5740">F1 - 5740 Mhz</option>
+                    <option value="5760">F2 - 5760 Mhz</option>
+                    <option value="5780">F3 - 5780 Mhz</option>
+                    <option value="5800">F4 - 5800 Mhz</option>
+                    <option value="5820">F5 - 5820 Mhz</option>
+                    <option value="5840">F6 - 5840 Mhz</option>
+                    <option value="5860">F7 - 5860 Mhz</option>
+                    <option value="5880">F8 - 5880 Mhz</option>
+                  </optgroup>
+                </select>
+                <span i18n="lapSettingChannel"></span>
+            </label>
+          </div>
+          <div class="number">
+            <label> <input type="number" name="lap_rssi_threshold" step="1" min="1" max="400" />
+              <span i18n="lapSettingRssiThreshold"></span>
+            </label>
+          </div>
+          <div class="default_btn">
+            <a class="deviceCalibrate" href="#" i18n="lapButtonCalibrateRSSI"></a>
+          </div>
+          <div class="default_btn">
+            <a class="deviceSet" href="#">Set</a>
+          </div>
+          <div style="clear: both;">
+            <div class="meter-bar">
+              <div class="fill"></div>
+            </div>
+            <div class="meter-scale">
+              <span class="meter-min"></span>
+              <span class="meter-max"></span>
+            </div>
+          </div>
+        </div>
+        <div class="gui_box_statusbar">
+            <div style="float: left;" class="spacer_box_title status-device"></div>
+            <div style="float: right;" class="spacer_box_title status-rssi"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

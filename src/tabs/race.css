@@ -1,0 +1,121 @@
+.tab-race .positions {
+    width: 100%;
+    border-spacing: 0.5em;
+}
+
+.tab-race .position {
+    background-color: #f9f9f9;
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+}
+
+.tab-race .position .name {
+    padding-top: 13px;
+}
+
+.tab-race .position .number {
+    font-size: 4em;
+}
+
+.tab-race .position .info {
+    text-align: center;
+    width: 10%;
+    position: relative;
+    background-color: #e4e4e4;
+    border-bottom: 5px solid #000;
+    color: grey;
+    min-width: 100px;
+}
+
+.tab-race .position .info.one {
+    color: #ffffff;
+    background-color: #388E3C;
+}
+
+.tab-race .position .info.two {
+    color: #ffffff;
+    background-color: #D32F2F;
+}
+
+.tab-race .position .info.three {
+    color: #ffffff;
+    background-color: #FFA000;
+}
+
+.tab-race .position .info .name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.tab-race .stats {
+    vertical-align: middle;
+}
+
+.tab-race .stats .lap {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.tab-race .stats .lap-title {
+    padding-top: 13px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.tab-race .stats .lap-number {
+    font-size: 4em;
+}
+
+.tab-race .stats .lap-total {
+    font-size: 2em;
+}
+
+.tab-race .stats .current-lap,
+.tab-race .stats .best-lap,
+.tab-race .stats .total-lap {
+    padding-left: 10px;
+    font-size: 2em;
+}
+
+.tab-race .stats .total-lap {
+    font-weight: bold;
+}
+
+#tab-race-templates {
+    display: none;
+}
+
+/* LED indicators */
+.tab-race .led {
+    margin: 13px 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.tab-race .led-red {
+    background: red;
+    background-image: radial-gradient(brown, transparent);
+    border: dotted 1px red;
+    box-shadow:
+        0 0 2px #aaa inset,
+        0 0 6px red;
+}
+
+.tab-race .led-yellow {
+    background: yellow;
+    background-image: radial-gradient(orange, transparent);
+    border: dotted 1px yellow;
+    box-shadow:
+        0 0 2px #aaa inset,
+        0 0 6px yellow;
+}
+
+.tab-race .led-green {
+    background: green;
+    background-image: radial-gradient(lime, transparent);
+    border: dotted 1px green;
+    box-shadow:
+        0 0 2px #aaa inset,
+        0 0 6px lime;
+}

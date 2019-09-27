@@ -1,0 +1,141 @@
+.tab-devices .spacer_box {
+	padding-bottom 10px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.tab-devices .device_toggle {
+    float: right;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tab-devices .switchery {
+    width: 32px;
+}
+
+.tab-devices .gui_box_statusbar {
+    background-color: #e4e4e4;
+    font-size: 13px;
+    width: 100%;
+    height: 27px;
+    padding-bottom: 0px;
+    float: left;
+    font-family: 'open_sanssemibold', Arial;
+}
+
+.tab-devices .text input,
+.tab-devices .number input,
+.tab-devices .select select {
+    width: 100px;
+    padding-left: 3px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-right: 11px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tab-devices .select select {
+    width: 104px;
+}
+
+.tab-devices .number input.disabled {
+    width: 43px;
+    padding: 0px 5px;
+    background-color: #ececec;
+}
+
+.tab-devices .text span,
+.tab-devices .number span {
+    margin-left: 0px;
+}
+
+.tab-devices .text,
+.tab-devices .number,
+.tab-devices .select {
+    margin-bottom: 5px;
+    clear: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    float: left;
+}
+
+.tab-devices .text:last-child,
+.tab-devices .number:last-child,
+.tab-devices .select:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.tab-devices .default_btn {
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.tab-devices .device {
+    float: left;
+    width: calc(24% - 5px);
+    padding-right: 5px;
+}
+
+#tab-devices-templates {
+    display: none;
+}
+
+/* RSSI meter styles */
+.tab-devices .device .meter {
+    width: calc(100% - 60px);
+}
+
+.tab-devices .device .meter-bar {
+    position: relative;
+    margin-top: 2px;
+    width: calc(100% - 2px);
+    height: 15px;
+    border: 1px solid silver;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+}
+
+.tab-devices .device .meter-bar .label {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #474747;
+}
+
+.tab-devices .device .meter-bar .fill {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    width: 0%;
+    height: 15px;
+    background-color: green;
+}
+
+.tab-devices .device .meter-bar .fill .label {
+    color: white;
+}
+
+.tab-devices .device .meter-scale .meter-min,
+.tab-devices .device .meter-scale .meter-max {
+    display: none;
+    font-size: 0.75em;
+}
+
+.tab-devices .device .meter-scale .meter-min {
+    float: left;
+}
+
+.tab-devices .device .meter-scale .meter-max {
+    float: right;
+}
